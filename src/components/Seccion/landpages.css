@@ -1,0 +1,71 @@
+.logo{
+  height: 45px; 
+  width: 175px;
+}
+.text{
+  
+color:#24797C;  
+}
+.text-p{
+  color:black;
+}
+.secion{
+  background-color:#40C0C4;
+  color:white; 
+  margin-top:30px;
+}
+.formulario{
+  margin-top:40px;
+}
+.tabla{
+  width:100%;
+}
+.columna{
+  text-align:left; 
+  width:50%;
+  font-size:10pt;
+}
+.subtexto{
+  color:#0088D6;
+  text-decoration:underline;
+}
+.columna2{
+  text-align:right;
+  width:50%;
+  font-size:10pt;
+}
+.subtexto2{
+  color:#0088D6;
+  text-decoration:underline;
+}
+.inputText{
+  text-transform: none;
+}
+#como{
+  background-color:#40C0C4;
+}
+.texto-paga{
+  margin-top: 30px;
+}
+.img-fade{
+  max-width: 580px;
+   width: 100%;
+}
+/* seccion que */
+.textito{
+  color:#40C0C4;
+}
+.parrafo{
+  margin-top:30px;
+}
+.positiva{
+  max-width: 580px;
+   width: 100%;
+}
+.color-footer{
+  background-color:#24797C;
+}
+.color-a{
+ 
+color:white;
+}
