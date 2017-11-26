@@ -1,6 +1,31 @@
 import store from "../store/store";
 import { auth, database, firebase } from "../firebase.js";
 
+// export function addSignUp(name, email, password) {
+//   auth.createUserWithEmailAndPassword(email, password).then(userObj => {
+//     let newuser = {
+//       name,
+//       email
+//     };
+//     database.ref("users/" + userObj.uid).set(newuser);
+
+//     database
+//       .ref("users/" + userObj.uid)
+//       .once("value")
+//       .then(res => {
+//         const fullUserInfo = res.val();
+//         console.log("full info ", fullUserInfo);
+//         store.setState({
+//           user: {
+//             id: userObj.uid,
+//             name: fullUserInfo.name,
+//             email: fullUserInfo.email
+//           }
+//         });
+//       });
+//   });
+// }
+
 export function addSignIn(user, pass) {
   auth.signInWithEmailAndPassword(user, pass).then(userObj => {
     database
@@ -13,6 +38,7 @@ export function addSignIn(user, pass) {
         store.setState({
           user: {
             id: userObj.uid,
+            name: fullUserInfo.name,
             email: fullUserInfo.email
           }
         });

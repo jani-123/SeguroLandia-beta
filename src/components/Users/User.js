@@ -9,6 +9,7 @@ const Admin = ({ successLogin, user }) => {
   return (
     <div>
       Buenvenido
+      {!successLogin && <Redirect to="/" />}
       <h1>{user.email}</h1>
       <button className="btn-link " onClick={signOut}>
         Cerrar Sesión

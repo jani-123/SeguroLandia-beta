@@ -5,6 +5,7 @@ const initialState = {
   selectIdBoard: 0,
   user: {
     id: null,
+    name:null,
     email: null
   },
   insures: [],

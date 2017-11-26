@@ -69,3 +69,10 @@ color:#24797C;
  
 color:white;
 }
+/* cambio */
+
+input, input[type="text"], input[type="email"], input[type="tel"], input[type="number"], input[type="password"], input[type="radio"], input[type="checkbox"], textarea, select {
+   
+    text-transform: none;
+  
+}
